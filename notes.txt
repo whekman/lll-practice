@@ -1,0 +1,37 @@
+
+
+Start (theory):
+- basic CA: combinational/seuantial logic, memory, fsm, control unit, data paths, ISA
+- basic hardware: history, how a chip is made, how silicon is made, lithography, etc.
+Gives a physical idea of what is going on
+- basic OS: What is the role of an OS? How did we operate computers before OS?
+Gives some idea of how interaction with hardware is mediated by OS
+eg what happens when you run a "hello world" program from the terminal?
+
+Then (practice):
+- assembly: input/output using syscall, branching, loops, study using gdb
+Gives an idea of how computer actually computes stuff at the base level.
+Motivates the use of HLL like C eg a function that adds two values...
+- C: work up to linked-lists, 2D arrays, etc. study the assembly using gdb
+Makes you get a feel for the language in which Linux is written.
+Introduces you to the stack and the heap, branching, etc.
+Now you have entry-level for the non-introductory classes of the universities.
+
+Then (theory):
+- intermediate CA: pipelining, caching, branch prediction, IO, etc.
+	How is speed of execution improved? Tricks.
+- basic OS ctd.: 
+- basic algos: trees, etc. all in C.
+
+Then (practice):
+
+Finally:
+- DB...
+- Server/Client Model
+
+
+gcc ... ... -fno-asynchronous-unwind-tables
+
+https://unix.stackexchange.com/questions/61085/why-is-the-theoretical-ram-limit-for-rhel-6-128-tb-and-how-is-this-determined/64490#64490
+
+https://jvns.ca/blog/2021/05/17/how-to-look-at-the-stack-in-gdb/
